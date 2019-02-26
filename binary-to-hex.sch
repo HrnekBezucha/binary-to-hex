@@ -1,39 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Binary to hex"
+Title ""
 Date ""
 Rev ""
 Comp ""
@@ -42,4 +13,125 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 74xx_IEEE:74154 U?
+U 1 1 5C7509E4
+P 4200 3000
+F 0 "U?" H 4200 4116 50  0000 C CNN
+F 1 "74154" H 4200 4025 50  0000 C CNN
+F 2 "" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 5C750AD6
+P 2300 1100
+F 0 "U?" H 2300 1342 50  0000 C CNN
+F 1 "L7805" H 2300 1251 50  0000 C CNN
+F 2 "" H 2325 950 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2300 1050 50  0001 C CNN
+	1    2300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 5C750D21
+P 900 1200
+F 0 "J?" H 955 1525 50  0000 C CNN
+F 1 "Barrel_Jack" H 955 1434 50  0000 C CNN
+F 2 "" H 950 1160 50  0001 C CNN
+F 3 "~" H 950 1160 50  0001 C CNN
+	1    900  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C751080
+P 2600 2200
+F 0 "SW?" H 2600 1875 50  0000 C CNN
+F 1 "SW_SPDT" H 2600 1966 50  0000 C CNN
+F 2 "" H 2600 2200 50  0001 C CNN
+F 3 "" H 2600 2200 50  0001 C CNN
+	1    2600 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C75113B
+P 1800 1300
+F 0 "C?" H 1915 1346 50  0000 L CNN
+F 1 "C" H 1915 1255 50  0000 L CNN
+F 2 "" H 1838 1150 50  0001 C CNN
+F 3 "~" H 1800 1300 50  0001 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C751163
+P 2800 1300
+F 0 "C?" H 2915 1346 50  0000 L CNN
+F 1 "C" H 2915 1255 50  0000 L CNN
+F 2 "" H 2838 1150 50  0001 C CNN
+F 3 "~" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C7511A7
+P 2600 2800
+F 0 "SW?" H 2600 3085 50  0000 C CNN
+F 1 "SW_SPDT" H 2600 2994 50  0000 C CNN
+F 2 "" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C7511E3
+P 2600 3400
+F 0 "SW?" H 2600 3685 50  0000 C CNN
+F 1 "SW_SPDT" H 2600 3594 50  0000 C CNN
+F 2 "" H 2600 3400 50  0001 C CNN
+F 3 "" H 2600 3400 50  0001 C CNN
+	1    2600 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C75120B
+P 2600 4000
+F 0 "SW?" H 2600 4285 50  0000 C CNN
+F 1 "SW_SPDT" H 2600 4194 50  0000 C CNN
+F 2 "" H 2600 4000 50  0001 C CNN
+F 3 "" H 2600 4000 50  0001 C CNN
+	1    2600 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C751263
+P 1500 2100
+F 0 "R?" H 1570 2146 50  0000 L CNN
+F 1 "R" H 1570 2055 50  0000 L CNN
+F 2 "" V 1430 2100 50  0001 C CNN
+F 3 "~" H 1500 2100 50  0001 C CNN
+	1    1500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5C75131F
+P 1200 2100
+F 0 "D?" H 1191 2316 50  0000 C CNN
+F 1 "LED_ALT" H 1191 2225 50  0000 C CNN
+F 2 "" H 1200 2100 50  0001 C CNN
+F 3 "~" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
