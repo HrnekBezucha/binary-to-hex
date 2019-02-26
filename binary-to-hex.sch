@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L 74xx_IEEE:74154 U?
 U 1 1 5C7509E4
-P 5600 3000
-F 0 "U?" H 5600 4116 50  0000 C CNN
-F 1 "74154" H 5600 4025 50  0000 C CNN
-F 2 "" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
-	1    5600 3000
+P 5150 2600
+F 0 "U?" H 5150 3716 50  0000 C CNN
+F 1 "74154" H 5150 3625 50  0000 C CNN
+F 2 "" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -386,4 +386,104 @@ Connection ~ 2400 4400
 Wire Wire Line
 	2900 5000 2350 5000
 Connection ~ 2350 5000
+Wire Wire Line
+	4600 1800 4200 1800
+Wire Wire Line
+	4600 1900 4200 1900
+Wire Wire Line
+	4600 2000 4200 2000
+Wire Wire Line
+	4600 2100 4200 2100
+Text Label 4200 1800 0    50   ~ 0
+in1
+Text Label 4200 1900 0    50   ~ 0
+in2
+Text Label 4200 2000 0    50   ~ 0
+in3
+Text Label 4200 2100 0    50   ~ 0
+in4
+Wire Wire Line
+	4600 2300 4500 2300
+Wire Wire Line
+	4500 2300 4500 2500
+Wire Wire Line
+	4600 2500 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4500 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5C75D697
+P 4500 2800
+F 0 "#PWR?" H 4500 2550 50  0001 C CNN
+F 1 "GND" H 4505 2627 50  0000 C CNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1800 6300 1800
+Text Label 6300 1800 2    50   ~ 0
+address0
+Wire Wire Line
+	5700 1900 6300 1900
+Wire Wire Line
+	5700 2000 6300 2000
+Wire Wire Line
+	5700 2100 6300 2100
+Wire Wire Line
+	5700 2200 6300 2200
+Wire Wire Line
+	5700 2300 6300 2300
+Wire Wire Line
+	5700 2400 6300 2400
+Wire Wire Line
+	5700 2500 6300 2500
+Wire Wire Line
+	5700 2600 6300 2600
+Wire Wire Line
+	5700 2700 6300 2700
+Wire Wire Line
+	5700 2800 6300 2800
+Wire Wire Line
+	5700 2900 6300 2900
+Wire Wire Line
+	5700 3000 6300 3000
+Wire Wire Line
+	5700 3100 6300 3100
+Wire Wire Line
+	5700 3200 6300 3200
+Wire Wire Line
+	5700 3300 6300 3300
+Text Label 6300 1900 2    50   ~ 0
+address1
+Text Label 6300 2000 2    50   ~ 0
+address2
+Text Label 6300 2100 2    50   ~ 0
+address3
+Text Label 6300 2200 2    50   ~ 0
+address4
+Text Label 6300 2300 2    50   ~ 0
+address5
+Text Label 6300 2400 2    50   ~ 0
+address6
+Text Label 6300 2500 2    50   ~ 0
+address7
+Text Label 6300 2600 2    50   ~ 0
+address8
+Text Label 6300 2700 2    50   ~ 0
+address9
+Text Label 6300 2800 2    50   ~ 0
+addressA
+Text Label 6300 2900 2    50   ~ 0
+addressB
+Text Label 6300 3000 2    50   ~ 0
+addressC
+Text Label 6300 3100 2    50   ~ 0
+addressD
+Text Label 6300 3200 2    50   ~ 0
+addressE
+Text Label 6300 3300 2    50   ~ 0
+addressF
 $EndSCHEMATC
