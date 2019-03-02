@@ -2162,4 +2162,17 @@ Wire Wire Line
 	5300 5300 5300 5600
 Connection ~ 5100 5500
 Connection ~ 5300 5300
+Text Notes 2700 5600 0    50   ~ 0
+Active low
+$Comp
+L Device:R R?
+U 1 1 5D42BE64
+P 5400 600
+F 0 "R?" H 5470 646 50  0000 L CNN
+F 1 "R" H 5470 555 50  0000 L CNN
+F 2 "" V 5330 600 50  0001 C CNN
+F 3 "~" H 5400 600 50  0001 C CNN
+	1    5400 600 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
