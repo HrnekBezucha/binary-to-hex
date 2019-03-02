@@ -2289,10 +2289,10 @@ Diode ROM
 Text Notes 8700 800  0    100  ~ 0
 Inverter & Display
 $Comp
-L Connector:Jack-DC J?
+L Connector:Jack-DC J1
 U 1 1 5D790785
 P 1000 1400
-F 0 "J?" H 1055 1725 50  0000 C CNN
+F 0 "J1" H 1055 1725 50  0000 C CNN
 F 1 "Jack-DC" H 1055 1634 50  0000 C CNN
 F 2 "" H 1050 1360 50  0001 C CNN
 F 3 "~" H 1050 1360 50  0001 C CNN
