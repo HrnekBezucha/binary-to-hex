@@ -2299,4 +2299,12 @@ F 3 "~" H 1050 1360 50  0001 C CNN
 	1    1000 1400
 	1    0    0    -1  
 $EndComp
+Text Notes 900  2900 0    100  ~ 0
+LSB
+Text Notes 900  4700 0    100  ~ 0
+MSB
+Text Notes 1200 6200 0    50   ~ 0
+MSB
+Text Notes 1200 5900 0    50   ~ 0
+LSB
 $EndSCHEMATC
