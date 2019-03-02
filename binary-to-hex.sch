@@ -1585,7 +1585,7 @@ F 3 "" H 10700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7500 5900 0    150  ~ 0
-Warning,\nThe 74x154 inverts signal\nso pull-up the diodes and\ninvert before the display
+Todo:\nturn the diodes around\nto face bottom left
 $Comp
 L 74xx:74LS540 U?
 U 1 1 5C7B8C7E
