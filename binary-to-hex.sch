@@ -1581,8 +1581,6 @@ F 3 "" H 10700 2500 50  0001 C CNN
 	1    10700 2500
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 5900 0    150  ~ 0
-Todo:\nturn the diodes around\nto face bottom left
 $Comp
 L 74xx:74LS540 U?
 U 1 1 5C7B8C7E
@@ -2258,4 +2256,6 @@ Wire Wire Line
 Connection ~ 5100 1700
 Wire Wire Line
 	5100 1700 5100 2300
+Text Notes 7900 5300 0    150  Italic 0
+Flow diagram:\n4 bit inputs\n4 - 16 demuxer\n16x7 diode ROM\n7 bit inverter\n7 segment display
 $EndSCHEMATC
