@@ -63,7 +63,7 @@ L Device:C C?
 U 1 1 5C75113B
 P 2500 1550
 F 0 "C?" H 2615 1596 50  0000 L CNN
-F 1 "C" H 2615 1505 50  0000 L CNN
+F 1 "100nF" H 2615 1505 50  0000 L CNN
 F 2 "" H 2538 1400 50  0001 C CNN
 F 3 "~" H 2500 1550 50  0001 C CNN
 	1    2500 1550
@@ -74,7 +74,7 @@ L Device:C C?
 U 1 1 5C751163
 P 3500 1550
 F 0 "C?" H 3615 1596 50  0000 L CNN
-F 1 "C" H 3615 1505 50  0000 L CNN
+F 1 "100nF" H 3615 1505 50  0000 L CNN
 F 2 "" H 3538 1400 50  0001 C CNN
 F 3 "~" H 3500 1550 50  0001 C CNN
 	1    3500 1550
@@ -118,7 +118,7 @@ L Device:R R?
 U 1 1 5C751263
 P 2900 2950
 F 0 "R?" H 2970 2996 50  0000 L CNN
-F 1 "R" H 2970 2905 50  0000 L CNN
+F 1 "330" H 2970 2905 50  0000 L CNN
 F 2 "" V 2830 2950 50  0001 C CNN
 F 3 "~" H 2900 2950 50  0001 C CNN
 	1    2900 2950
@@ -257,7 +257,7 @@ L Device:R R?
 U 1 1 5C7554C7
 P 2900 3550
 F 0 "R?" H 2970 3596 50  0000 L CNN
-F 1 "R" H 2970 3505 50  0000 L CNN
+F 1 "330" H 2970 3505 50  0000 L CNN
 F 2 "" V 2830 3550 50  0001 C CNN
 F 3 "~" H 2900 3550 50  0001 C CNN
 	1    2900 3550
@@ -296,7 +296,7 @@ L Device:R R?
 U 1 1 5C75613B
 P 2900 4150
 F 0 "R?" H 2970 4196 50  0000 L CNN
-F 1 "R" H 2970 4105 50  0000 L CNN
+F 1 "330" H 2970 4105 50  0000 L CNN
 F 2 "" V 2830 4150 50  0001 C CNN
 F 3 "~" H 2900 4150 50  0001 C CNN
 	1    2900 4150
@@ -333,7 +333,7 @@ L Device:R R?
 U 1 1 5C756BB6
 P 2850 4750
 F 0 "R?" H 2920 4796 50  0000 L CNN
-F 1 "R" H 2920 4705 50  0000 L CNN
+F 1 "330" H 2920 4705 50  0000 L CNN
 F 2 "" V 2780 4750 50  0001 C CNN
 F 3 "~" H 2850 4750 50  0001 C CNN
 	1    2850 4750
@@ -519,20 +519,12 @@ Wire Wire Line
 	6500 1100 6500 1700
 Wire Wire Line
 	6200 1100 6200 1700
-Wire Wire Line
-	5900 1100 5900 1400
-Wire Wire Line
-	5600 1100 5600 1400
-Wire Wire Line
-	5300 1100 5300 1700
 Connection ~ 6300 1300
 Wire Wire Line
 	6300 1300 6600 1300
 Connection ~ 6600 1300
 Wire Wire Line
 	6600 1300 7200 1300
-Wire Wire Line
-	4400 1300 5100 1300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7CD792
@@ -558,9 +550,6 @@ F 3 "~" H 5800 1200 50  0001 C CNN
 	1    5800 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 1300
-Wire Wire Line
-	5700 1300 6000 1300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7CD81C
@@ -572,9 +561,6 @@ F 3 "~" H 5500 1200 50  0001 C CNN
 	1    5500 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 1300
-Wire Wire Line
-	5400 1300 5700 1300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7CD860
@@ -586,9 +572,6 @@ F 3 "~" H 5200 1200 50  0001 C CNN
 	1    5200 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 1300
-Wire Wire Line
-	5100 1300 5400 1300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7CD8A2
@@ -692,8 +675,6 @@ F 3 "~" H 7000 1800 50  0001 C CNN
 	1    7000 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 1100 7100 1700
 Connection ~ 7100 1700
 Wire Wire Line
 	7100 1700 7100 2000
@@ -813,8 +794,6 @@ F 3 "~" H 5500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5600 2300
-Wire Wire Line
-	5600 2300 5600 3200
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7D4EB5
@@ -893,8 +872,6 @@ F 3 "~" H 5200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5300 2600
-Wire Wire Line
-	5300 2600 5300 2900
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7D7CB5
@@ -907,8 +884,6 @@ F 3 "~" H 5800 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5900 2600
-Wire Wire Line
-	5900 2600 5900 2900
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7D7D21
@@ -921,8 +896,6 @@ F 3 "~" H 6100 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6200 2600
-Wire Wire Line
-	6200 2600 6200 2900
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7D7D8D
@@ -970,8 +943,6 @@ Wire Wire Line
 	6900 2800 7200 2800
 Text Label 4400 2800 0    50   ~ 0
 address5
-Wire Wire Line
-	4400 3100 5100 3100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DE7D2
@@ -983,12 +954,6 @@ F 3 "~" H 5200 3000 50  0001 C CNN
 	1    5200 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 3100
-Wire Wire Line
-	5100 3100 5700 3100
-Connection ~ 5300 2900
-Wire Wire Line
-	5300 2900 5300 3200
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DE842
@@ -1000,12 +965,6 @@ F 3 "~" H 5800 3000 50  0001 C CNN
 	1    5800 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 3100
-Wire Wire Line
-	5700 3100 6000 3100
-Connection ~ 5900 2900
-Wire Wire Line
-	5900 2900 5900 3200
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DE8BA
@@ -1017,12 +976,6 @@ F 3 "~" H 6100 3000 50  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 3100
-Wire Wire Line
-	6000 3100 6300 3100
-Connection ~ 6200 2900
-Wire Wire Line
-	6200 2900 6200 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DE92E
@@ -1038,8 +991,6 @@ Connection ~ 6300 3100
 Wire Wire Line
 	6300 3100 6600 3100
 Connection ~ 6500 2900
-Wire Wire Line
-	6500 2900 6500 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DE9AC
@@ -1055,8 +1006,6 @@ Connection ~ 6600 3100
 Wire Wire Line
 	6600 3100 6900 3100
 Connection ~ 6800 2900
-Wire Wire Line
-	6800 2900 6800 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7DEA24
@@ -1072,12 +1021,8 @@ Connection ~ 6900 3100
 Wire Wire Line
 	6900 3100 7200 3100
 Connection ~ 7100 2900
-Wire Wire Line
-	7100 2900 7100 3500
 Text Label 4400 3100 0    50   ~ 0
 address6
-Wire Wire Line
-	4400 3400 5100 3400
 Text Label 4400 3400 0    50   ~ 0
 address7
 $Comp
@@ -1091,12 +1036,6 @@ F 3 "~" H 5200 3300 50  0001 C CNN
 	1    5200 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 3400
-Wire Wire Line
-	5100 3400 5400 3400
-Connection ~ 5300 3200
-Wire Wire Line
-	5300 3200 5300 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E30BF
@@ -1108,12 +1047,6 @@ F 3 "~" H 5500 3300 50  0001 C CNN
 	1    5500 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 3400
-Wire Wire Line
-	5400 3400 5700 3400
-Connection ~ 5600 3200
-Wire Wire Line
-	5600 3200 5600 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E3141
@@ -1125,14 +1058,6 @@ F 3 "~" H 5800 3300 50  0001 C CNN
 	1    5800 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 3400
-Wire Wire Line
-	5700 3400 7200 3400
-Connection ~ 5900 3200
-Wire Wire Line
-	5900 3200 5900 3500
-Wire Wire Line
-	4400 3700 5100 3700
 Text Label 4400 3700 0    50   ~ 0
 address8
 $Comp
@@ -1146,10 +1071,6 @@ F 3 "~" H 5200 3600 50  0001 C CNN
 	1    5200 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 3700
-Wire Wire Line
-	5100 3700 5400 3700
-Connection ~ 5300 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E7E69
@@ -1161,10 +1082,6 @@ F 3 "~" H 5500 3600 50  0001 C CNN
 	1    5500 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 3700
-Wire Wire Line
-	5400 3700 5700 3700
-Connection ~ 5600 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E7EED
@@ -1176,10 +1093,6 @@ F 3 "~" H 5800 3600 50  0001 C CNN
 	1    5800 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 3700
-Wire Wire Line
-	5700 3700 6000 3700
-Connection ~ 5900 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E7F73
@@ -1191,10 +1104,6 @@ F 3 "~" H 6100 3600 50  0001 C CNN
 	1    6100 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 3700
-Wire Wire Line
-	6000 3700 6300 3700
-Connection ~ 6200 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E7FFB
@@ -1206,10 +1115,6 @@ F 3 "~" H 6400 3600 50  0001 C CNN
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 3700
-Wire Wire Line
-	6300 3700 6600 3700
-Connection ~ 6500 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E8089
@@ -1221,10 +1126,6 @@ F 3 "~" H 6700 3600 50  0001 C CNN
 	1    6700 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 3700
-Wire Wire Line
-	6600 3700 6900 3700
-Connection ~ 6800 3500
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C7E8115
@@ -1236,38 +1137,6 @@ F 3 "~" H 7000 3600 50  0001 C CNN
 	1    7000 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 3700
-Wire Wire Line
-	6900 3700 7200 3700
-Connection ~ 7100 3500
-Wire Wire Line
-	5300 3500 5300 3800
-Wire Wire Line
-	5600 3500 5600 3800
-Wire Wire Line
-	5900 3500 5900 3800
-Wire Wire Line
-	6200 3500 6200 3800
-Wire Wire Line
-	6500 3500 6500 4100
-Wire Wire Line
-	6800 3500 6800 3800
-Wire Wire Line
-	7100 3500 7100 3800
-Wire Wire Line
-	4400 4000 5100 4000
-Wire Wire Line
-	4400 4300 5100 4300
-Wire Wire Line
-	4400 4600 5700 4600
-Wire Wire Line
-	4400 4900 5100 4900
-Wire Wire Line
-	7200 5200 6900 5200
-Wire Wire Line
-	4400 5500 5100 5500
-Wire Wire Line
-	7200 5800 6900 5800
 Text Label 4400 4000 0    50   ~ 0
 address9
 Text Label 4400 4300 0    50   ~ 0
@@ -1293,12 +1162,6 @@ F 3 "~" H 5200 3900 50  0001 C CNN
 	1    5200 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 4000
-Wire Wire Line
-	5100 4000 5400 4000
-Connection ~ 5300 3800
-Wire Wire Line
-	5300 3800 5300 4100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83B803
@@ -1310,12 +1173,6 @@ F 3 "~" H 5500 3900 50  0001 C CNN
 	1    5500 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 4000
-Wire Wire Line
-	5400 4000 5700 4000
-Connection ~ 5600 3800
-Wire Wire Line
-	5600 3800 5600 4100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83B895
@@ -1327,12 +1184,6 @@ F 3 "~" H 5800 3900 50  0001 C CNN
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 4000
-Wire Wire Line
-	5700 4000 6000 4000
-Connection ~ 5900 3800
-Wire Wire Line
-	5900 3800 5900 4100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83B929
@@ -1344,12 +1195,6 @@ F 3 "~" H 6100 3900 50  0001 C CNN
 	1    6100 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 4000
-Wire Wire Line
-	6000 4000 6600 4000
-Connection ~ 6200 3800
-Wire Wire Line
-	6200 3800 6200 4400
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83B9BF
@@ -1361,12 +1206,6 @@ F 3 "~" H 6700 3900 50  0001 C CNN
 	1    6700 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 4000
-Wire Wire Line
-	6600 4000 6900 4000
-Connection ~ 6800 3800
-Wire Wire Line
-	6800 3800 6800 4100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BA5F
@@ -1378,12 +1217,6 @@ F 3 "~" H 7000 3900 50  0001 C CNN
 	1    7000 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 4000
-Wire Wire Line
-	6900 4000 7200 4000
-Connection ~ 7100 3800
-Wire Wire Line
-	7100 3800 7100 4100
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BAF9
@@ -1395,12 +1228,6 @@ F 3 "~" H 7000 4200 50  0001 C CNN
 	1    7000 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 4300
-Wire Wire Line
-	6900 4300 7200 4300
-Connection ~ 7100 4100
-Wire Wire Line
-	7100 4100 7100 4400
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BB99
@@ -1412,12 +1239,6 @@ F 3 "~" H 6700 4200 50  0001 C CNN
 	1    6700 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 4300
-Wire Wire Line
-	6600 4300 6900 4300
-Connection ~ 6800 4100
-Wire Wire Line
-	6800 4100 6800 4400
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BC37
@@ -1429,12 +1250,6 @@ F 3 "~" H 6400 4200 50  0001 C CNN
 	1    6400 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 4300
-Wire Wire Line
-	6300 4300 6600 4300
-Connection ~ 6500 4100
-Wire Wire Line
-	6500 4100 6500 4400
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BCD7
@@ -1446,12 +1261,6 @@ F 3 "~" H 5800 4200 50  0001 C CNN
 	1    5800 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 4300
-Wire Wire Line
-	5700 4300 6300 4300
-Connection ~ 5900 4100
-Wire Wire Line
-	5900 4100 5900 4400
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BE63
@@ -1463,10 +1272,6 @@ F 3 "~" H 5500 4200 50  0001 C CNN
 	1    5500 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 4300
-Connection ~ 5600 4100
-Wire Wire Line
-	5400 4300 5600 4300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BF55
@@ -1478,12 +1283,6 @@ F 3 "~" H 5200 4200 50  0001 C CNN
 	1    5200 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 4300
-Wire Wire Line
-	5100 4300 5400 4300
-Connection ~ 5300 4100
-Wire Wire Line
-	5300 4100 5300 4700
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83BFFB
@@ -1495,12 +1294,6 @@ F 3 "~" H 5800 4500 50  0001 C CNN
 	1    5800 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 4600
-Wire Wire Line
-	5700 4600 6000 4600
-Connection ~ 5900 4400
-Wire Wire Line
-	5900 4400 5900 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C0B3
@@ -1512,12 +1305,6 @@ F 3 "~" H 6100 4500 50  0001 C CNN
 	1    6100 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 4600
-Wire Wire Line
-	6000 4600 6300 4600
-Connection ~ 6200 4400
-Wire Wire Line
-	6200 4400 6200 4700
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C15D
@@ -1529,12 +1316,6 @@ F 3 "~" H 6400 4500 50  0001 C CNN
 	1    6400 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 4600
-Wire Wire Line
-	6300 4600 6600 4600
-Connection ~ 6500 4400
-Wire Wire Line
-	6500 4400 6500 4700
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C209
@@ -1546,12 +1327,6 @@ F 3 "~" H 6700 4500 50  0001 C CNN
 	1    6700 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 4600
-Wire Wire Line
-	6600 4600 6900 4600
-Connection ~ 6800 4400
-Wire Wire Line
-	6800 4400 6800 4700
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C2B7
@@ -1563,12 +1338,6 @@ F 3 "~" H 7000 4500 50  0001 C CNN
 	1    7000 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 4600
-Wire Wire Line
-	6900 4600 7200 4600
-Connection ~ 7100 4400
-Wire Wire Line
-	7100 4400 7100 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C36B
@@ -1580,12 +1349,6 @@ F 3 "~" H 6700 4800 50  0001 C CNN
 	1    6700 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 4900
-Wire Wire Line
-	6600 4900 7200 4900
-Connection ~ 6800 4700
-Wire Wire Line
-	6800 4700 6800 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C421
@@ -1597,12 +1360,6 @@ F 3 "~" H 6400 4800 50  0001 C CNN
 	1    6400 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 4900
-Wire Wire Line
-	6300 4900 6600 4900
-Connection ~ 6500 4700
-Wire Wire Line
-	6500 4700 6500 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C4D9
@@ -1614,12 +1371,6 @@ F 3 "~" H 6100 4800 50  0001 C CNN
 	1    6100 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 4900
-Wire Wire Line
-	6000 4900 6300 4900
-Connection ~ 6200 4700
-Wire Wire Line
-	6200 4700 6200 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C58F
@@ -1631,12 +1382,6 @@ F 3 "~" H 5200 4800 50  0001 C CNN
 	1    5200 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 4900
-Wire Wire Line
-	5100 4900 6000 4900
-Connection ~ 5300 4700
-Wire Wire Line
-	5300 4700 5300 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C88E
@@ -1648,10 +1393,6 @@ F 3 "~" H 5500 5100 50  0001 C CNN
 	1    5500 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 5200
-Wire Wire Line
-	5400 5200 4400 5200
-Connection ~ 5600 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83C94E
@@ -1663,10 +1404,6 @@ F 3 "~" H 5800 5100 50  0001 C CNN
 	1    5800 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 5200
-Wire Wire Line
-	5700 5200 5400 5200
-Connection ~ 5900 5000
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CA0A
@@ -1678,12 +1415,6 @@ F 3 "~" H 6100 5100 50  0001 C CNN
 	1    6100 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 5200
-Wire Wire Line
-	6000 5200 5700 5200
-Connection ~ 6200 5000
-Wire Wire Line
-	6200 5000 6200 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CAC8
@@ -1695,12 +1426,6 @@ F 3 "~" H 6400 5100 50  0001 C CNN
 	1    6400 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 5200
-Wire Wire Line
-	6300 5200 6000 5200
-Connection ~ 6500 5000
-Wire Wire Line
-	6500 5000 6500 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CB88
@@ -1712,12 +1437,6 @@ F 3 "~" H 7000 5100 50  0001 C CNN
 	1    7000 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 5200
-Wire Wire Line
-	6900 5200 6300 5200
-Connection ~ 7100 5000
-Wire Wire Line
-	7100 5000 7100 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CC50
@@ -1729,12 +1448,6 @@ F 3 "~" H 7000 5400 50  0001 C CNN
 	1    7000 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 5500
-Wire Wire Line
-	6900 5500 7200 5500
-Connection ~ 7100 5300
-Wire Wire Line
-	7100 5300 7100 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CD14
@@ -1746,12 +1459,6 @@ F 3 "~" H 6700 5400 50  0001 C CNN
 	1    6700 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 5500
-Wire Wire Line
-	6600 5500 6900 5500
-Connection ~ 6800 5300
-Wire Wire Line
-	6800 5300 6800 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CDDA
@@ -1763,12 +1470,6 @@ F 3 "~" H 6400 5400 50  0001 C CNN
 	1    6400 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 5500
-Wire Wire Line
-	6300 5500 6600 5500
-Connection ~ 6500 5300
-Wire Wire Line
-	6500 5300 6500 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CEA2
@@ -1780,10 +1481,6 @@ F 3 "~" H 6100 5400 50  0001 C CNN
 	1    6100 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 5500
-Wire Wire Line
-	6000 5500 6300 5500
-Connection ~ 6200 5300
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83CF74
@@ -1795,12 +1492,6 @@ F 3 "~" H 5200 5400 50  0001 C CNN
 	1    5200 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 5500
-Wire Wire Line
-	5100 5500 6000 5500
-Connection ~ 5300 5300
-Wire Wire Line
-	5300 5300 5300 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83D054
@@ -1812,9 +1503,6 @@ F 3 "~" H 5200 5700 50  0001 C CNN
 	1    5200 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 5800
-Wire Wire Line
-	5100 5800 4400 5800
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83D122
@@ -1826,10 +1514,6 @@ F 3 "~" H 6400 5700 50  0001 C CNN
 	1    6400 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 5800
-Wire Wire Line
-	6300 5800 5100 5800
-Connection ~ 6500 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83D208
@@ -1841,10 +1525,6 @@ F 3 "~" H 6700 5700 50  0001 C CNN
 	1    6700 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 5800
-Wire Wire Line
-	6600 5800 6300 5800
-Connection ~ 6800 5600
 $Comp
 L d_tilt:D_Tilt D?
 U 1 1 5C83D2DA
@@ -1856,41 +1536,22 @@ F 3 "~" H 7000 5700 50  0001 C CNN
 	1    7000 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 5800
-Wire Wire Line
-	6900 5800 6600 5800
-Connection ~ 7100 5600
-Wire Wire Line
-	5600 5000 5600 6200
-Wire Wire Line
-	5900 5000 5900 6200
 Wire Wire Line
 	5300 6200 5300 5600
-Connection ~ 5300 5600
-Wire Wire Line
-	6200 5300 6200 6200
-Wire Wire Line
-	6500 5600 6500 6200
-Wire Wire Line
-	6800 5600 6800 6200
-Wire Wire Line
-	7100 5600 7100 6200
 Text Label 5300 6200 0    50   ~ 0
-a
+~A
 Text Label 5600 6200 0    50   ~ 0
-b
+~B
 Text Label 5900 6200 0    50   ~ 0
-c
+~C
 Text Label 6200 6200 0    50   ~ 0
-d
+~D
 Text Label 6500 6200 0    50   ~ 0
-e
+~E
 Text Label 6800 6200 0    50   ~ 0
-f
+~F
 Text Label 7100 6200 0    50   ~ 0
-g
-Wire Wire Line
-	5600 4300 5700 4300
+~G
 $Comp
 L Display_Character:HDSP-A153 U?
 U 1 1 5C8D0172
@@ -1923,285 +1584,582 @@ F 3 "" H 10700 2500 50  0001 C CNN
 	1    10700 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972723
-P 8200 1400
-F 0 "Q?" H 8391 1446 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 1355 50  0000 L CNN
-F 2 "" H 8400 1500 50  0001 C CNN
-F 3 "~" H 8200 1400 50  0001 C CNN
-	1    8200 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972803
-P 8200 1900
-F 0 "Q?" H 8391 1946 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 1855 50  0000 L CNN
-F 2 "" H 8400 2000 50  0001 C CNN
-F 3 "~" H 8200 1900 50  0001 C CNN
-	1    8200 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C9728DD
-P 8200 2400
-F 0 "Q?" H 8391 2446 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 2355 50  0000 L CNN
-F 2 "" H 8400 2500 50  0001 C CNN
-F 3 "~" H 8200 2400 50  0001 C CNN
-	1    8200 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972AE6
-P 8200 2900
-F 0 "Q?" H 8391 2946 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 2855 50  0000 L CNN
-F 2 "" H 8400 3000 50  0001 C CNN
-F 3 "~" H 8200 2900 50  0001 C CNN
-	1    8200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972D08
-P 8200 3400
-F 0 "Q?" H 8391 3446 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 3355 50  0000 L CNN
-F 2 "" H 8400 3500 50  0001 C CNN
-F 3 "~" H 8200 3400 50  0001 C CNN
-	1    8200 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972DEC
-P 8200 3900
-F 0 "Q?" H 8391 3946 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 3855 50  0000 L CNN
-F 2 "" H 8400 4000 50  0001 C CNN
-F 3 "~" H 8200 3900 50  0001 C CNN
-	1    8200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5C972ED2
-P 8200 4400
-F 0 "Q?" H 8391 4446 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8391 4355 50  0000 L CNN
-F 2 "" H 8400 4500 50  0001 C CNN
-F 3 "~" H 8200 4400 50  0001 C CNN
-	1    8200 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 1200 8700 1200
-Wire Wire Line
-	8700 1200 8700 900 
-Wire Wire Line
-	8700 1200 8700 1700
-Wire Wire Line
-	8700 1700 8300 1700
-Connection ~ 8700 1200
-Wire Wire Line
-	8700 1700 8700 2200
-Wire Wire Line
-	8700 2200 8300 2200
-Connection ~ 8700 1700
-Wire Wire Line
-	8700 2200 8700 2700
-Wire Wire Line
-	8700 2700 8300 2700
-Connection ~ 8700 2200
-Wire Wire Line
-	8700 2700 8700 3200
-Wire Wire Line
-	8700 3200 8300 3200
-Connection ~ 8700 2700
-Wire Wire Line
-	8700 3200 8700 3700
-Wire Wire Line
-	8700 3700 8300 3700
-Connection ~ 8700 3200
-Wire Wire Line
-	8700 3700 8700 4200
-Wire Wire Line
-	8700 4200 8300 4200
-Connection ~ 8700 3700
-$Comp
-L Device:R R?
-U 1 1 5C9E56A4
-P 9100 1600
-F 0 "R?" V 8893 1600 50  0000 C CNN
-F 1 "R" V 8984 1600 50  0000 C CNN
-F 2 "" V 9030 1600 50  0001 C CNN
-F 3 "~" H 9100 1600 50  0001 C CNN
-	1    9100 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8300 1600 8950 1600
-Wire Wire Line
-	9250 1600 10000 1600
-$Comp
-L Device:R R?
-U 1 1 5CA22578
-P 9100 2100
-F 0 "R?" V 8893 2100 50  0000 C CNN
-F 1 "R" V 8984 2100 50  0000 C CNN
-F 2 "" V 9030 2100 50  0001 C CNN
-F 3 "~" H 9100 2100 50  0001 C CNN
-	1    9100 2100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 2100 9250 1700
-Wire Wire Line
-	9250 1700 10000 1700
-$Comp
-L Device:R R?
-U 1 1 5CA31C0D
-P 9100 2600
-F 0 "R?" V 8893 2600 50  0000 C CNN
-F 1 "R" V 8984 2600 50  0000 C CNN
-F 2 "" V 9030 2600 50  0001 C CNN
-F 3 "~" H 9100 2600 50  0001 C CNN
-	1    9100 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 2600 9350 2600
-Wire Wire Line
-	9350 2600 9350 1800
-Wire Wire Line
-	9350 1800 10000 1800
-$Comp
-L Device:R R?
-U 1 1 5CA41813
-P 9100 3100
-F 0 "R?" V 8893 3100 50  0000 C CNN
-F 1 "R" V 8984 3100 50  0000 C CNN
-F 2 "" V 9030 3100 50  0001 C CNN
-F 3 "~" H 9100 3100 50  0001 C CNN
-	1    9100 3100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 3100 9450 3100
-Wire Wire Line
-	9450 3100 9450 1900
-Wire Wire Line
-	9450 1900 10000 1900
-$Comp
-L Device:R R?
-U 1 1 5CA518C1
-P 9100 3600
-F 0 "R?" V 8893 3600 50  0000 C CNN
-F 1 "R" V 8984 3600 50  0000 C CNN
-F 2 "" V 9030 3600 50  0001 C CNN
-F 3 "~" H 9100 3600 50  0001 C CNN
-	1    9100 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CA51A9F
-P 9100 4100
-F 0 "R?" V 8893 4100 50  0000 C CNN
-F 1 "R" V 8984 4100 50  0000 C CNN
-F 2 "" V 9030 4100 50  0001 C CNN
-F 3 "~" H 9100 4100 50  0001 C CNN
-	1    9100 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CA51B9B
-P 9100 4600
-F 0 "R?" V 8893 4600 50  0000 C CNN
-F 1 "R" V 8984 4600 50  0000 C CNN
-F 2 "" V 9030 4600 50  0001 C CNN
-F 3 "~" H 9100 4600 50  0001 C CNN
-	1    9100 4600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 3600 9550 3600
-Wire Wire Line
-	9550 3600 9550 2000
-Wire Wire Line
-	9550 2000 10000 2000
-Wire Wire Line
-	10000 2100 9650 2100
-Wire Wire Line
-	9650 2100 9650 4100
-Wire Wire Line
-	9650 4100 9250 4100
-Wire Wire Line
-	9250 4600 9750 4600
-Wire Wire Line
-	9750 4600 9750 2200
-Wire Wire Line
-	9750 2200 10000 2200
-Wire Wire Line
-	8950 2100 8300 2100
-Wire Wire Line
-	8300 2600 8950 2600
-Wire Wire Line
-	8950 3100 8300 3100
-Wire Wire Line
-	8950 3600 8300 3600
-Wire Wire Line
-	8950 4100 8300 4100
-Wire Wire Line
-	8300 4600 8950 4600
-Wire Wire Line
-	8000 1400 7800 1400
-Wire Wire Line
-	8000 1900 7800 1900
-Wire Wire Line
-	8000 2400 7800 2400
-Text Label 7800 1400 0    50   ~ 0
-a
-Text Label 7800 1900 0    50   ~ 0
-b
-Text Label 7800 2400 0    50   ~ 0
-c
-Text Label 7800 2900 0    50   ~ 0
-d
-Wire Wire Line
-	7800 2900 8000 2900
-Wire Wire Line
-	8000 3400 7800 3400
-Wire Wire Line
-	7800 3900 8000 3900
-Text Label 7800 3400 0    50   ~ 0
-e
-Text Label 7800 3900 0    50   ~ 0
-f
-Text Label 7800 4400 0    50   ~ 0
-g
-Wire Wire Line
-	7800 4400 8000 4400
-$Comp
-L power:VCC #PWR?
-U 1 1 5CB6C17A
-P 8700 900
-F 0 "#PWR?" H 8700 750 50  0001 C CNN
-F 1 "VCC" H 8717 1073 50  0000 C CNN
-F 2 "" H 8700 900 50  0001 C CNN
-F 3 "" H 8700 900 50  0001 C CNN
-	1    8700 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 4100 5600 5000
 Text Notes 7500 5900 0    150  ~ 0
 Warning,\nThe 74x154 inverts signal\nso pull-up the diodes and\ninvert before the display
+$Comp
+L 74xx:74LS540 U?
+U 1 1 5C7B8C7E
+P 8800 2100
+F 0 "U?" H 8600 2800 50  0000 C CNN
+F 1 "74LS540" H 9000 2800 50  0000 C CNN
+F 2 "" H 8800 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS540" H 8800 2100 50  0001 C CNN
+	1    8800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 900  5600 900 
+Wire Wire Line
+	7100 900  7100 1700
+Wire Wire Line
+	6800 1100 6800 900 
+Connection ~ 6800 1100
+Connection ~ 6800 900 
+Wire Wire Line
+	6800 900  7100 900 
+Wire Wire Line
+	6500 1100 6500 900 
+Connection ~ 6500 1100
+Connection ~ 6500 900 
+Wire Wire Line
+	6500 900  6800 900 
+Wire Wire Line
+	6200 1100 6200 900 
+Connection ~ 6200 1100
+Connection ~ 6200 900 
+Wire Wire Line
+	6200 900  6500 900 
+Connection ~ 5900 900 
+Wire Wire Line
+	5900 900  6200 900 
+Connection ~ 5600 900 
+Wire Wire Line
+	5600 900  5900 900 
+$Comp
+L power:VCC #PWR?
+U 1 1 5C843ED3
+P 6200 800
+F 0 "#PWR?" H 6200 650 50  0001 C CNN
+F 1 "VCC" H 6217 973 50  0000 C CNN
+F 2 "" H 6200 800 50  0001 C CNN
+F 3 "" H 6200 800 50  0001 C CNN
+	1    6200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 800  6200 900 
+Wire Wire Line
+	8300 1600 7900 1600
+Wire Wire Line
+	7900 1700 8300 1700
+Wire Wire Line
+	7900 1800 8300 1800
+Wire Wire Line
+	7900 1900 8300 1900
+Wire Wire Line
+	7900 2000 8300 2000
+Wire Wire Line
+	7900 2100 8300 2100
+Wire Wire Line
+	7900 2200 8300 2200
+Wire Wire Line
+	8300 2500 8200 2500
+Wire Wire Line
+	8200 2500 8200 2600
+Wire Wire Line
+	8300 2600 8200 2600
+Connection ~ 8200 2600
+Wire Wire Line
+	8200 2600 8200 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5C907044
+P 8200 2800
+F 0 "#PWR?" H 8200 2550 50  0001 C CNN
+F 1 "GND" H 8205 2627 50  0000 C CNN
+F 2 "" H 8200 2800 50  0001 C CNN
+F 3 "" H 8200 2800 50  0001 C CNN
+	1    8200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C907118
+P 8800 2900
+F 0 "#PWR?" H 8800 2650 50  0001 C CNN
+F 1 "GND" H 8805 2727 50  0000 C CNN
+F 2 "" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C9071E5
+P 8800 1300
+F 0 "#PWR?" H 8800 1150 50  0001 C CNN
+F 1 "VCC" H 8817 1473 50  0000 C CNN
+F 2 "" H 8800 1300 50  0001 C CNN
+F 3 "" H 8800 1300 50  0001 C CNN
+	1    8800 1300
+	1    0    0    -1  
+$EndComp
+Text Label 7900 1600 0    50   ~ 0
+~A
+Text Label 7900 1700 0    50   ~ 0
+~B
+Text Label 7900 1800 0    50   ~ 0
+~C
+Text Label 7900 1900 0    50   ~ 0
+~D
+Text Label 7900 2000 0    50   ~ 0
+~E
+Text Label 7900 2100 0    50   ~ 0
+~F
+Text Label 7900 2200 0    50   ~ 0
+~G
+$Comp
+L Device:R R?
+U 1 1 5C907BB3
+P 9700 1600
+F 0 "R?" V 9700 1800 50  0000 C CNN
+F 1 "330" V 9700 1600 50  0000 C CNN
+F 2 "" V 9630 1600 50  0001 C CNN
+F 3 "~" H 9700 1600 50  0001 C CNN
+	1    9700 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908AB4
+P 9700 1700
+F 0 "R?" V 9700 1900 50  0000 C CNN
+F 1 "330" V 9700 1700 50  0000 C CNN
+F 2 "" V 9630 1700 50  0001 C CNN
+F 3 "~" H 9700 1700 50  0001 C CNN
+	1    9700 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908B88
+P 9700 1800
+F 0 "R?" V 9700 2000 50  0000 C CNN
+F 1 "330" V 9700 1800 50  0000 C CNN
+F 2 "" V 9630 1800 50  0001 C CNN
+F 3 "~" H 9700 1800 50  0001 C CNN
+	1    9700 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908C5E
+P 9700 1900
+F 0 "R?" V 9700 2100 50  0000 C CNN
+F 1 "330" V 9700 1900 50  0000 C CNN
+F 2 "" V 9630 1900 50  0001 C CNN
+F 3 "~" H 9700 1900 50  0001 C CNN
+	1    9700 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908D36
+P 9700 2000
+F 0 "R?" V 9700 2200 50  0000 C CNN
+F 1 "330" V 9700 2000 50  0000 C CNN
+F 2 "" V 9630 2000 50  0001 C CNN
+F 3 "~" H 9700 2000 50  0001 C CNN
+	1    9700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908E10
+P 9700 2100
+F 0 "R?" V 9700 2300 50  0000 C CNN
+F 1 "330" V 9700 2100 50  0000 C CNN
+F 2 "" V 9630 2100 50  0001 C CNN
+F 3 "~" H 9700 2100 50  0001 C CNN
+	1    9700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C908EEC
+P 9700 2200
+F 0 "R?" V 9700 2400 50  0000 C CNN
+F 1 "330" V 9700 2200 50  0000 C CNN
+F 2 "" V 9630 2200 50  0001 C CNN
+F 3 "~" H 9700 2200 50  0001 C CNN
+	1    9700 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 1600 9550 1600
+Wire Wire Line
+	9300 1700 9550 1700
+Wire Wire Line
+	9300 1800 9550 1800
+Wire Wire Line
+	9300 1900 9550 1900
+Wire Wire Line
+	9300 2000 9550 2000
+Wire Wire Line
+	9300 2100 9550 2100
+Wire Wire Line
+	9300 2200 9550 2200
+Wire Wire Line
+	9850 1600 10000 1600
+Wire Wire Line
+	9850 1700 10000 1700
+Wire Wire Line
+	9850 1800 10000 1800
+Wire Wire Line
+	9850 1900 10000 1900
+Wire Wire Line
+	9850 2000 10000 2000
+Wire Wire Line
+	9850 2100 10000 2100
+Wire Wire Line
+	9850 2200 10000 2200
+NoConn ~ 9300 2300
+Wire Wire Line
+	7200 5800 6900 5800
+Connection ~ 6200 2900
+Wire Wire Line
+	6000 3100 6300 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6200 2600 6200 2900
+Connection ~ 5900 2900
+Wire Wire Line
+	5700 3100 6000 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5900 2600 5900 2900
+Connection ~ 5300 2900
+Connection ~ 5100 3100
+Wire Wire Line
+	5100 3100 5700 3100
+Wire Wire Line
+	4400 3100 5100 3100
+Wire Wire Line
+	5300 2600 5300 2900
+Connection ~ 5900 1100
+Wire Wire Line
+	5700 1300 6000 1300
+Connection ~ 5700 1300
+Wire Wire Line
+	5900 1100 5900 900 
+Wire Wire Line
+	5900 1100 5900 1400
+Connection ~ 5600 1100
+Wire Wire Line
+	5400 1300 5700 1300
+Connection ~ 5400 1300
+Wire Wire Line
+	5600 1100 5600 900 
+Wire Wire Line
+	5600 1100 5600 1400
+Connection ~ 5300 1100
+Wire Wire Line
+	4400 1300 5100 1300
+Wire Wire Line
+	5100 1300 5400 1300
+Connection ~ 5100 1300
+Wire Wire Line
+	5300 1100 5300 900 
+Wire Wire Line
+	5300 1100 5300 1700
+Connection ~ 5300 3200
+Connection ~ 5100 3400
+Wire Wire Line
+	4400 3400 5100 3400
+Wire Wire Line
+	5300 2900 5300 3200
+Connection ~ 5600 3200
+Connection ~ 5400 3400
+Wire Wire Line
+	5100 3400 5400 3400
+Wire Wire Line
+	5600 2300 5600 3200
+Connection ~ 5900 3200
+Connection ~ 5700 3400
+Wire Wire Line
+	5700 3400 7200 3400
+Wire Wire Line
+	5400 3400 5700 3400
+Wire Wire Line
+	5900 2900 5900 3200
+Connection ~ 7100 3500
+Wire Wire Line
+	6900 3700 7200 3700
+Connection ~ 6900 3700
+Wire Wire Line
+	7100 2900 7100 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6600 3700 6900 3700
+Connection ~ 6600 3700
+Wire Wire Line
+	6800 2900 6800 3500
+Connection ~ 6500 3500
+Wire Wire Line
+	6300 3700 6600 3700
+Connection ~ 6300 3700
+Wire Wire Line
+	6500 2900 6500 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	6000 3700 6300 3700
+Connection ~ 6000 3700
+Wire Wire Line
+	6200 2900 6200 3500
+Connection ~ 5900 3500
+Wire Wire Line
+	5700 3700 6000 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5900 3200 5900 3500
+Connection ~ 5600 3500
+Wire Wire Line
+	5400 3700 5700 3700
+Connection ~ 5400 3700
+Wire Wire Line
+	5600 3200 5600 3500
+Connection ~ 5300 3500
+Connection ~ 5100 3700
+Wire Wire Line
+	5100 3700 5400 3700
+Wire Wire Line
+	4400 3700 5100 3700
+Wire Wire Line
+	5300 3200 5300 3500
+Connection ~ 5300 3800
+Connection ~ 5100 4000
+Wire Wire Line
+	4400 4000 5100 4000
+Wire Wire Line
+	5300 3500 5300 3800
+Connection ~ 5600 3800
+Connection ~ 5400 4000
+Wire Wire Line
+	5100 4000 5400 4000
+Wire Wire Line
+	5600 3500 5600 3800
+Connection ~ 5900 3800
+Connection ~ 5700 4000
+Wire Wire Line
+	5400 4000 5700 4000
+Wire Wire Line
+	5900 3500 5900 3800
+Connection ~ 6200 3800
+Connection ~ 6000 4000
+Wire Wire Line
+	5700 4000 6000 4000
+Wire Wire Line
+	6200 3500 6200 3800
+Connection ~ 6800 3800
+Connection ~ 6600 4000
+Wire Wire Line
+	6000 4000 6600 4000
+Wire Wire Line
+	6800 3500 6800 3800
+Connection ~ 7100 3800
+Connection ~ 6900 4000
+Wire Wire Line
+	6900 4000 7200 4000
+Wire Wire Line
+	6600 4000 6900 4000
+Wire Wire Line
+	7100 3500 7100 3800
+Connection ~ 7100 4100
+Wire Wire Line
+	6900 4300 7200 4300
+Connection ~ 6900 4300
+Wire Wire Line
+	7100 3800 7100 4100
+Connection ~ 6800 4100
+Wire Wire Line
+	6600 4300 6900 4300
+Connection ~ 6600 4300
+Wire Wire Line
+	6800 3800 6800 4100
+Connection ~ 6500 4100
+Wire Wire Line
+	6300 4300 6600 4300
+Connection ~ 6300 4300
+Wire Wire Line
+	6500 3500 6500 4100
+Connection ~ 5900 4100
+Wire Wire Line
+	5600 4300 5700 4300
+Wire Wire Line
+	5700 4300 6300 4300
+Connection ~ 5700 4300
+Wire Wire Line
+	5900 3800 5900 4100
+Wire Wire Line
+	5400 4300 5600 4300
+Connection ~ 5600 4100
+Connection ~ 5400 4300
+Wire Wire Line
+	5600 3800 5600 4100
+Connection ~ 5300 4100
+Connection ~ 5100 4300
+Wire Wire Line
+	5300 3800 5300 4100
+Wire Wire Line
+	5100 4300 5400 4300
+Wire Wire Line
+	4400 4300 5100 4300
+Connection ~ 5900 4400
+Connection ~ 5700 4600
+Wire Wire Line
+	5900 4100 5900 4400
+Wire Wire Line
+	4400 4600 5700 4600
+Connection ~ 6200 4400
+Connection ~ 6000 4600
+Wire Wire Line
+	5700 4600 6000 4600
+Wire Wire Line
+	6200 3800 6200 4400
+Connection ~ 6500 4400
+Connection ~ 6300 4600
+Wire Wire Line
+	6000 4600 6300 4600
+Wire Wire Line
+	6500 4100 6500 4400
+Connection ~ 6800 4400
+Connection ~ 6600 4600
+Wire Wire Line
+	6300 4600 6600 4600
+Wire Wire Line
+	6800 4100 6800 4400
+Connection ~ 7100 4400
+Connection ~ 6900 4600
+Wire Wire Line
+	6900 4600 7200 4600
+Wire Wire Line
+	6600 4600 6900 4600
+Wire Wire Line
+	7100 4100 7100 4400
+Connection ~ 6800 4700
+Wire Wire Line
+	6600 4900 7200 4900
+Connection ~ 6600 4900
+Wire Wire Line
+	6800 4400 6800 4700
+Connection ~ 6500 4700
+Wire Wire Line
+	6300 4900 6600 4900
+Connection ~ 6300 4900
+Wire Wire Line
+	6500 4400 6500 4700
+Connection ~ 6200 4700
+Wire Wire Line
+	6000 4900 6300 4900
+Connection ~ 6000 4900
+Wire Wire Line
+	6200 4400 6200 4700
+Wire Wire Line
+	7200 5200 6900 5200
+Wire Wire Line
+	7100 5600 7100 6200
+Connection ~ 7100 5600
+Wire Wire Line
+	6900 5800 6600 5800
+Connection ~ 6900 5800
+Wire Wire Line
+	6800 5600 6800 6200
+Connection ~ 6800 5600
+Wire Wire Line
+	6600 5800 6300 5800
+Connection ~ 6600 5800
+Wire Wire Line
+	6500 5600 6500 6200
+Connection ~ 6500 5600
+Connection ~ 6300 5800
+Wire Wire Line
+	6200 5300 6200 6200
+Connection ~ 6200 5300
+Connection ~ 6000 5500
+Wire Wire Line
+	6000 5500 6300 5500
+Wire Wire Line
+	6500 5300 6500 5600
+Connection ~ 6500 5300
+Connection ~ 6300 5500
+Wire Wire Line
+	6300 5500 6600 5500
+Connection ~ 6800 5300
+Connection ~ 6600 5500
+Wire Wire Line
+	6800 5300 6800 5600
+Wire Wire Line
+	6800 4700 6800 5300
+Wire Wire Line
+	7100 5300 7100 5600
+Connection ~ 7100 5300
+Wire Wire Line
+	6600 5500 6900 5500
+Wire Wire Line
+	6900 5500 7200 5500
+Connection ~ 6900 5500
+Connection ~ 7100 5000
+Wire Wire Line
+	6900 5200 6300 5200
+Connection ~ 6900 5200
+Wire Wire Line
+	7100 5000 7100 5300
+Wire Wire Line
+	7100 4400 7100 5000
+Connection ~ 6500 5000
+Wire Wire Line
+	6300 5200 6000 5200
+Connection ~ 6300 5200
+Wire Wire Line
+	6500 5000 6500 5300
+Wire Wire Line
+	6500 4700 6500 5000
+Connection ~ 6200 5000
+Wire Wire Line
+	6000 5200 5700 5200
+Connection ~ 6000 5200
+Wire Wire Line
+	6200 5000 6200 5300
+Wire Wire Line
+	6200 4700 6200 5000
+Connection ~ 5900 5000
+Wire Wire Line
+	5700 5200 5400 5200
+Connection ~ 5700 5200
+Wire Wire Line
+	5900 5000 5900 6200
+Wire Wire Line
+	5900 4400 5900 5000
+Wire Wire Line
+	5600 4100 5600 5000
+Wire Wire Line
+	5600 5000 5600 6200
+Connection ~ 5600 5000
+Wire Wire Line
+	5400 5200 4400 5200
+Connection ~ 5400 5200
+Connection ~ 5300 4700
+Connection ~ 5100 4900
+Wire Wire Line
+	5300 4100 5300 4700
+Wire Wire Line
+	5100 4900 6000 4900
+Wire Wire Line
+	4400 4900 5100 4900
+Wire Wire Line
+	6300 5800 5100 5800
+Connection ~ 5300 5600
+Wire Wire Line
+	5100 5800 4400 5800
+Connection ~ 5100 5800
+Wire Wire Line
+	4400 5500 5100 5500
+Wire Wire Line
+	5100 5500 6000 5500
+Wire Wire Line
+	5300 4700 5300 5300
+Wire Wire Line
+	5300 5300 5300 5600
+Connection ~ 5100 5500
+Connection ~ 5300 5300
 $EndSCHEMATC
