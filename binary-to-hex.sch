@@ -1446,8 +1446,6 @@ F 3 "~" H 5800 4200 50  0001 C CNN
 	1    5800 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 4300 5600 5000
 Connection ~ 5700 4300
 Wire Wire Line
 	5700 4300 6300 4300
@@ -1467,8 +1465,6 @@ F 3 "~" H 5500 4200 50  0001 C CNN
 $EndComp
 Connection ~ 5400 4300
 Connection ~ 5600 4100
-Wire Wire Line
-	5600 4100 5600 4300
 Wire Wire Line
 	5400 4300 5600 4300
 $Comp
@@ -1893,7 +1889,6 @@ Text Label 6800 6200 0    50   ~ 0
 f
 Text Label 7100 6200 0    50   ~ 0
 g
-Connection ~ 5600 4300
 Wire Wire Line
 	5600 4300 5700 4300
 $Comp
@@ -2205,4 +2200,8 @@ F 3 "" H 8700 900 50  0001 C CNN
 	1    8700 900 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5600 4100 5600 5000
+Text Notes 7500 5900 0    150  ~ 0
+Warning,\nThe 74x154 inverts signal\nso pull-up the diodes and\ninvert before the display
 $EndSCHEMATC
