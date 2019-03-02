@@ -500,7 +500,7 @@ F 1 "D_Tilt" H 6750 1075 50  0001 C CNN
 F 2 "" H 6700 1200 50  0001 C CNN
 F 3 "~" H 6700 1200 50  0001 C CNN
 	1    6700 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -511,7 +511,7 @@ F 1 "D_Tilt" H 6450 1075 50  0001 C CNN
 F 2 "" H 6400 1200 50  0001 C CNN
 F 3 "~" H 6400 1200 50  0001 C CNN
 	1    6400 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6800 1100 6800 2300
@@ -534,7 +534,7 @@ F 1 "D_Tilt" H 6150 1075 50  0001 C CNN
 F 2 "" H 6100 1200 50  0001 C CNN
 F 3 "~" H 6100 1200 50  0001 C CNN
 	1    6100 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6000 1300
 Wire Wire Line
@@ -548,7 +548,7 @@ F 1 "D_Tilt" H 5850 1075 50  0001 C CNN
 F 2 "" H 5800 1200 50  0001 C CNN
 F 3 "~" H 5800 1200 50  0001 C CNN
 	1    5800 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -559,7 +559,7 @@ F 1 "D_Tilt" H 5550 1075 50  0001 C CNN
 F 2 "" H 5500 1200 50  0001 C CNN
 F 3 "~" H 5500 1200 50  0001 C CNN
 	1    5500 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -570,7 +570,7 @@ F 1 "D_Tilt" H 5250 1075 50  0001 C CNN
 F 2 "" H 5200 1200 50  0001 C CNN
 F 3 "~" H 5200 1200 50  0001 C CNN
 	1    5200 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -581,7 +581,7 @@ F 1 "D_Tilt" H 5550 1375 50  0001 C CNN
 F 2 "" H 5500 1500 50  0001 C CNN
 F 3 "~" H 5500 1500 50  0001 C CNN
 	1    5500 1500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5600 1400
 Wire Wire Line
@@ -595,7 +595,7 @@ F 1 "D_Tilt" H 5850 1375 50  0001 C CNN
 F 2 "" H 5800 1500 50  0001 C CNN
 F 3 "~" H 5800 1500 50  0001 C CNN
 	1    5800 1500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5900 1400
 Wire Wire Line
@@ -617,7 +617,7 @@ F 1 "D_Tilt" H 5250 1675 50  0001 C CNN
 F 2 "" H 5200 1800 50  0001 C CNN
 F 3 "~" H 5200 1800 50  0001 C CNN
 	1    5200 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5300 1700
 Wire Wire Line
@@ -631,7 +631,7 @@ F 1 "D_Tilt" H 5550 1675 50  0001 C CNN
 F 2 "" H 5500 1800 50  0001 C CNN
 F 3 "~" H 5500 1800 50  0001 C CNN
 	1    5500 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5600 1700
 Wire Wire Line
@@ -645,7 +645,7 @@ F 1 "D_Tilt" H 6150 1675 50  0001 C CNN
 F 2 "" H 6100 1800 50  0001 C CNN
 F 3 "~" H 6100 1800 50  0001 C CNN
 	1    6100 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6200 1700
 Wire Wire Line
@@ -659,7 +659,7 @@ F 1 "D_Tilt" H 6450 1675 50  0001 C CNN
 F 2 "" H 6400 1800 50  0001 C CNN
 F 3 "~" H 6400 1800 50  0001 C CNN
 	1    6400 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6500 1700
 Wire Wire Line
@@ -673,7 +673,7 @@ F 1 "D_Tilt" H 7050 1675 50  0001 C CNN
 F 2 "" H 7000 1800 50  0001 C CNN
 F 3 "~" H 7000 1800 50  0001 C CNN
 	1    7000 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 7100 1700
 Wire Wire Line
@@ -704,7 +704,7 @@ F 1 "D_Tilt" H 7050 1975 50  0001 C CNN
 F 2 "" H 7000 2100 50  0001 C CNN
 F 3 "~" H 7000 2100 50  0001 C CNN
 	1    7000 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 7100 2000
 Wire Wire Line
@@ -718,7 +718,7 @@ F 1 "D_Tilt" H 6150 1975 50  0001 C CNN
 F 2 "" H 6100 2100 50  0001 C CNN
 F 3 "~" H 6100 2100 50  0001 C CNN
 	1    6100 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6200 2000
 Wire Wire Line
@@ -732,7 +732,7 @@ F 1 "D_Tilt" H 5850 1975 50  0001 C CNN
 F 2 "" H 5800 2100 50  0001 C CNN
 F 3 "~" H 5800 2100 50  0001 C CNN
 	1    5800 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5900 2000
 Wire Wire Line
@@ -746,7 +746,7 @@ F 1 "D_Tilt" H 5550 1975 50  0001 C CNN
 F 2 "" H 5500 2100 50  0001 C CNN
 F 3 "~" H 5500 2100 50  0001 C CNN
 	1    5500 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5600 2000
 Wire Wire Line
@@ -760,7 +760,7 @@ F 1 "D_Tilt" H 5250 1975 50  0001 C CNN
 F 2 "" H 5200 2100 50  0001 C CNN
 F 3 "~" H 5200 2100 50  0001 C CNN
 	1    5200 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5300 2000
 Wire Wire Line
@@ -791,7 +791,7 @@ F 1 "D_Tilt" H 5550 2275 50  0001 C CNN
 F 2 "" H 5500 2400 50  0001 C CNN
 F 3 "~" H 5500 2400 50  0001 C CNN
 	1    5500 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5600 2300
 $Comp
@@ -803,7 +803,7 @@ F 1 "D_Tilt" H 5850 2275 50  0001 C CNN
 F 2 "" H 5800 2400 50  0001 C CNN
 F 3 "~" H 5800 2400 50  0001 C CNN
 	1    5800 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5900 2300
 Wire Wire Line
@@ -817,7 +817,7 @@ F 1 "D_Tilt" H 6750 2275 50  0001 C CNN
 F 2 "" H 6700 2400 50  0001 C CNN
 F 3 "~" H 6700 2400 50  0001 C CNN
 	1    6700 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6800 2300
 Wire Wire Line
@@ -831,7 +831,7 @@ F 1 "D_Tilt" H 7050 2275 50  0001 C CNN
 F 2 "" H 7000 2400 50  0001 C CNN
 F 3 "~" H 7000 2400 50  0001 C CNN
 	1    7000 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 7100 2300
 Wire Wire Line
@@ -869,7 +869,7 @@ F 1 "D_Tilt" H 5250 2575 50  0001 C CNN
 F 2 "" H 5200 2700 50  0001 C CNN
 F 3 "~" H 5200 2700 50  0001 C CNN
 	1    5200 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5300 2600
 $Comp
@@ -881,7 +881,7 @@ F 1 "D_Tilt" H 5850 2575 50  0001 C CNN
 F 2 "" H 5800 2700 50  0001 C CNN
 F 3 "~" H 5800 2700 50  0001 C CNN
 	1    5800 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 5900 2600
 $Comp
@@ -893,7 +893,7 @@ F 1 "D_Tilt" H 6150 2575 50  0001 C CNN
 F 2 "" H 6100 2700 50  0001 C CNN
 F 3 "~" H 6100 2700 50  0001 C CNN
 	1    6100 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6200 2600
 $Comp
@@ -905,7 +905,7 @@ F 1 "D_Tilt" H 6750 2575 50  0001 C CNN
 F 2 "" H 6700 2700 50  0001 C CNN
 F 3 "~" H 6700 2700 50  0001 C CNN
 	1    6700 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6800 2600
 Wire Wire Line
@@ -919,7 +919,7 @@ F 1 "D_Tilt" H 7050 2575 50  0001 C CNN
 F 2 "" H 7000 2700 50  0001 C CNN
 F 3 "~" H 7000 2700 50  0001 C CNN
 	1    7000 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 7100 2600
 Wire Wire Line
@@ -952,7 +952,7 @@ F 1 "D_Tilt" H 5250 2875 50  0001 C CNN
 F 2 "" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
 	1    5200 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -963,7 +963,7 @@ F 1 "D_Tilt" H 5850 2875 50  0001 C CNN
 F 2 "" H 5800 3000 50  0001 C CNN
 F 3 "~" H 5800 3000 50  0001 C CNN
 	1    5800 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -974,7 +974,7 @@ F 1 "D_Tilt" H 6150 2875 50  0001 C CNN
 F 2 "" H 6100 3000 50  0001 C CNN
 F 3 "~" H 6100 3000 50  0001 C CNN
 	1    6100 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -985,7 +985,7 @@ F 1 "D_Tilt" H 6450 2875 50  0001 C CNN
 F 2 "" H 6400 3000 50  0001 C CNN
 F 3 "~" H 6400 3000 50  0001 C CNN
 	1    6400 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6300 3100
 Wire Wire Line
@@ -1000,7 +1000,7 @@ F 1 "D_Tilt" H 6750 2875 50  0001 C CNN
 F 2 "" H 6700 3000 50  0001 C CNN
 F 3 "~" H 6700 3000 50  0001 C CNN
 	1    6700 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6600 3100
 Wire Wire Line
@@ -1015,7 +1015,7 @@ F 1 "D_Tilt" H 7050 2875 50  0001 C CNN
 F 2 "" H 7000 3000 50  0001 C CNN
 F 3 "~" H 7000 3000 50  0001 C CNN
 	1    7000 3000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6900 3100
 Wire Wire Line
@@ -1034,7 +1034,7 @@ F 1 "D_Tilt" H 5250 3175 50  0001 C CNN
 F 2 "" H 5200 3300 50  0001 C CNN
 F 3 "~" H 5200 3300 50  0001 C CNN
 	1    5200 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1045,7 +1045,7 @@ F 1 "D_Tilt" H 5550 3175 50  0001 C CNN
 F 2 "" H 5500 3300 50  0001 C CNN
 F 3 "~" H 5500 3300 50  0001 C CNN
 	1    5500 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1056,7 +1056,7 @@ F 1 "D_Tilt" H 5850 3175 50  0001 C CNN
 F 2 "" H 5800 3300 50  0001 C CNN
 F 3 "~" H 5800 3300 50  0001 C CNN
 	1    5800 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 4400 3700 0    50   ~ 0
 address8
@@ -1069,7 +1069,7 @@ F 1 "D_Tilt" H 5250 3475 50  0001 C CNN
 F 2 "" H 5200 3600 50  0001 C CNN
 F 3 "~" H 5200 3600 50  0001 C CNN
 	1    5200 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1080,7 +1080,7 @@ F 1 "D_Tilt" H 5550 3475 50  0001 C CNN
 F 2 "" H 5500 3600 50  0001 C CNN
 F 3 "~" H 5500 3600 50  0001 C CNN
 	1    5500 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1091,7 +1091,7 @@ F 1 "D_Tilt" H 5850 3475 50  0001 C CNN
 F 2 "" H 5800 3600 50  0001 C CNN
 F 3 "~" H 5800 3600 50  0001 C CNN
 	1    5800 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1102,7 +1102,7 @@ F 1 "D_Tilt" H 6150 3475 50  0001 C CNN
 F 2 "" H 6100 3600 50  0001 C CNN
 F 3 "~" H 6100 3600 50  0001 C CNN
 	1    6100 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1113,7 +1113,7 @@ F 1 "D_Tilt" H 6450 3475 50  0001 C CNN
 F 2 "" H 6400 3600 50  0001 C CNN
 F 3 "~" H 6400 3600 50  0001 C CNN
 	1    6400 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1124,7 +1124,7 @@ F 1 "D_Tilt" H 6750 3475 50  0001 C CNN
 F 2 "" H 6700 3600 50  0001 C CNN
 F 3 "~" H 6700 3600 50  0001 C CNN
 	1    6700 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1135,7 +1135,7 @@ F 1 "D_Tilt" H 7050 3475 50  0001 C CNN
 F 2 "" H 7000 3600 50  0001 C CNN
 F 3 "~" H 7000 3600 50  0001 C CNN
 	1    7000 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 4400 4000 0    50   ~ 0
 address9
@@ -1160,7 +1160,7 @@ F 1 "D_Tilt" H 5250 3775 50  0001 C CNN
 F 2 "" H 5200 3900 50  0001 C CNN
 F 3 "~" H 5200 3900 50  0001 C CNN
 	1    5200 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1171,7 +1171,7 @@ F 1 "D_Tilt" H 5550 3775 50  0001 C CNN
 F 2 "" H 5500 3900 50  0001 C CNN
 F 3 "~" H 5500 3900 50  0001 C CNN
 	1    5500 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1182,7 +1182,7 @@ F 1 "D_Tilt" H 5850 3775 50  0001 C CNN
 F 2 "" H 5800 3900 50  0001 C CNN
 F 3 "~" H 5800 3900 50  0001 C CNN
 	1    5800 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1193,7 +1193,7 @@ F 1 "D_Tilt" H 6150 3775 50  0001 C CNN
 F 2 "" H 6100 3900 50  0001 C CNN
 F 3 "~" H 6100 3900 50  0001 C CNN
 	1    6100 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1204,7 +1204,7 @@ F 1 "D_Tilt" H 6750 3775 50  0001 C CNN
 F 2 "" H 6700 3900 50  0001 C CNN
 F 3 "~" H 6700 3900 50  0001 C CNN
 	1    6700 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1215,7 +1215,7 @@ F 1 "D_Tilt" H 7050 3775 50  0001 C CNN
 F 2 "" H 7000 3900 50  0001 C CNN
 F 3 "~" H 7000 3900 50  0001 C CNN
 	1    7000 3900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1226,7 +1226,7 @@ F 1 "D_Tilt" H 7050 4075 50  0001 C CNN
 F 2 "" H 7000 4200 50  0001 C CNN
 F 3 "~" H 7000 4200 50  0001 C CNN
 	1    7000 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1237,7 +1237,7 @@ F 1 "D_Tilt" H 6750 4075 50  0001 C CNN
 F 2 "" H 6700 4200 50  0001 C CNN
 F 3 "~" H 6700 4200 50  0001 C CNN
 	1    6700 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1248,7 +1248,7 @@ F 1 "D_Tilt" H 6450 4075 50  0001 C CNN
 F 2 "" H 6400 4200 50  0001 C CNN
 F 3 "~" H 6400 4200 50  0001 C CNN
 	1    6400 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1259,7 +1259,7 @@ F 1 "D_Tilt" H 5850 4075 50  0001 C CNN
 F 2 "" H 5800 4200 50  0001 C CNN
 F 3 "~" H 5800 4200 50  0001 C CNN
 	1    5800 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1270,7 +1270,7 @@ F 1 "D_Tilt" H 5550 4075 50  0001 C CNN
 F 2 "" H 5500 4200 50  0001 C CNN
 F 3 "~" H 5500 4200 50  0001 C CNN
 	1    5500 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1281,7 +1281,7 @@ F 1 "D_Tilt" H 5250 4075 50  0001 C CNN
 F 2 "" H 5200 4200 50  0001 C CNN
 F 3 "~" H 5200 4200 50  0001 C CNN
 	1    5200 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1292,7 +1292,7 @@ F 1 "D_Tilt" H 5850 4375 50  0001 C CNN
 F 2 "" H 5800 4500 50  0001 C CNN
 F 3 "~" H 5800 4500 50  0001 C CNN
 	1    5800 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1303,7 +1303,7 @@ F 1 "D_Tilt" H 6150 4375 50  0001 C CNN
 F 2 "" H 6100 4500 50  0001 C CNN
 F 3 "~" H 6100 4500 50  0001 C CNN
 	1    6100 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1314,7 +1314,7 @@ F 1 "D_Tilt" H 6450 4375 50  0001 C CNN
 F 2 "" H 6400 4500 50  0001 C CNN
 F 3 "~" H 6400 4500 50  0001 C CNN
 	1    6400 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1325,7 +1325,7 @@ F 1 "D_Tilt" H 6750 4375 50  0001 C CNN
 F 2 "" H 6700 4500 50  0001 C CNN
 F 3 "~" H 6700 4500 50  0001 C CNN
 	1    6700 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1336,7 +1336,7 @@ F 1 "D_Tilt" H 7050 4375 50  0001 C CNN
 F 2 "" H 7000 4500 50  0001 C CNN
 F 3 "~" H 7000 4500 50  0001 C CNN
 	1    7000 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1347,7 +1347,7 @@ F 1 "D_Tilt" H 6750 4675 50  0001 C CNN
 F 2 "" H 6700 4800 50  0001 C CNN
 F 3 "~" H 6700 4800 50  0001 C CNN
 	1    6700 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1358,7 +1358,7 @@ F 1 "D_Tilt" H 6450 4675 50  0001 C CNN
 F 2 "" H 6400 4800 50  0001 C CNN
 F 3 "~" H 6400 4800 50  0001 C CNN
 	1    6400 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1369,7 +1369,7 @@ F 1 "D_Tilt" H 6150 4675 50  0001 C CNN
 F 2 "" H 6100 4800 50  0001 C CNN
 F 3 "~" H 6100 4800 50  0001 C CNN
 	1    6100 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1380,7 +1380,7 @@ F 1 "D_Tilt" H 5250 4675 50  0001 C CNN
 F 2 "" H 5200 4800 50  0001 C CNN
 F 3 "~" H 5200 4800 50  0001 C CNN
 	1    5200 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1391,7 +1391,7 @@ F 1 "D_Tilt" H 5550 4975 50  0001 C CNN
 F 2 "" H 5500 5100 50  0001 C CNN
 F 3 "~" H 5500 5100 50  0001 C CNN
 	1    5500 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1402,7 +1402,7 @@ F 1 "D_Tilt" H 5850 4975 50  0001 C CNN
 F 2 "" H 5800 5100 50  0001 C CNN
 F 3 "~" H 5800 5100 50  0001 C CNN
 	1    5800 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1413,7 +1413,7 @@ F 1 "D_Tilt" H 6150 4975 50  0001 C CNN
 F 2 "" H 6100 5100 50  0001 C CNN
 F 3 "~" H 6100 5100 50  0001 C CNN
 	1    6100 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1424,7 +1424,7 @@ F 1 "D_Tilt" H 6450 4975 50  0001 C CNN
 F 2 "" H 6400 5100 50  0001 C CNN
 F 3 "~" H 6400 5100 50  0001 C CNN
 	1    6400 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1435,7 +1435,7 @@ F 1 "D_Tilt" H 7050 4975 50  0001 C CNN
 F 2 "" H 7000 5100 50  0001 C CNN
 F 3 "~" H 7000 5100 50  0001 C CNN
 	1    7000 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1446,7 +1446,7 @@ F 1 "D_Tilt" H 7050 5275 50  0001 C CNN
 F 2 "" H 7000 5400 50  0001 C CNN
 F 3 "~" H 7000 5400 50  0001 C CNN
 	1    7000 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1457,7 +1457,7 @@ F 1 "D_Tilt" H 6750 5275 50  0001 C CNN
 F 2 "" H 6700 5400 50  0001 C CNN
 F 3 "~" H 6700 5400 50  0001 C CNN
 	1    6700 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1468,7 +1468,7 @@ F 1 "D_Tilt" H 6450 5275 50  0001 C CNN
 F 2 "" H 6400 5400 50  0001 C CNN
 F 3 "~" H 6400 5400 50  0001 C CNN
 	1    6400 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1479,7 +1479,7 @@ F 1 "D_Tilt" H 6150 5275 50  0001 C CNN
 F 2 "" H 6100 5400 50  0001 C CNN
 F 3 "~" H 6100 5400 50  0001 C CNN
 	1    6100 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1490,7 +1490,7 @@ F 1 "D_Tilt" H 5250 5275 50  0001 C CNN
 F 2 "" H 5200 5400 50  0001 C CNN
 F 3 "~" H 5200 5400 50  0001 C CNN
 	1    5200 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1501,7 +1501,7 @@ F 1 "D_Tilt" H 5250 5575 50  0001 C CNN
 F 2 "" H 5200 5700 50  0001 C CNN
 F 3 "~" H 5200 5700 50  0001 C CNN
 	1    5200 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1512,7 +1512,7 @@ F 1 "D_Tilt" H 6450 5575 50  0001 C CNN
 F 2 "" H 6400 5700 50  0001 C CNN
 F 3 "~" H 6400 5700 50  0001 C CNN
 	1    6400 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1523,7 +1523,7 @@ F 1 "D_Tilt" H 6750 5575 50  0001 C CNN
 F 2 "" H 6700 5700 50  0001 C CNN
 F 3 "~" H 6700 5700 50  0001 C CNN
 	1    6700 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L d_tilt:D_Tilt D?
@@ -1534,7 +1534,7 @@ F 1 "D_Tilt" H 7050 5575 50  0001 C CNN
 F 2 "" H 7000 5700 50  0001 C CNN
 F 3 "~" H 7000 5700 50  0001 C CNN
 	1    7000 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5300 6200 5300 5600
