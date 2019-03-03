@@ -550,8 +550,8 @@ Text Notes 1650 800  0    100  ~ 0
 Power Supply
 Text Notes 4700 800  0    100  ~ 0
 Diode ROM
-Text Notes 8700 800  0    100  ~ 0
-Inverter & Display
+Text Notes 8400 1000 0    100  ~ 0
+Common Anode Display
 $Comp
 L Connector:Jack-DC J1
 U 1 1 5D790785
