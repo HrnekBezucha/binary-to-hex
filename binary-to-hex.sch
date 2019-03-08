@@ -338,19 +338,19 @@ F 3 "" H 5900 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 1000 5900 1100
-Text Label 8300 1600 0    50   ~ 0
+Text Label 7600 1300 0    50   ~ 0
 A
-Text Label 8300 1700 0    50   ~ 0
+Text Label 7600 1600 0    50   ~ 0
 B
-Text Label 8300 1800 0    50   ~ 0
+Text Label 7600 1900 0    50   ~ 0
 C
-Text Label 8300 1900 0    50   ~ 0
+Text Label 7600 2200 0    50   ~ 0
 D
-Text Label 8300 2000 0    50   ~ 0
+Text Label 7600 2500 0    50   ~ 0
 E
-Text Label 8300 2100 0    50   ~ 0
+Text Label 7600 2800 0    50   ~ 0
 F
-Text Label 8300 2200 0    50   ~ 0
+Text Label 7600 3100 0    50   ~ 0
 G
 $Comp
 L Device:R R12
@@ -552,17 +552,6 @@ Text Notes 4700 800  0    100  ~ 0
 Diode ROM
 Text Notes 8400 1000 0    100  ~ 0
 Common Anode Display
-$Comp
-L Connector:Jack-DC J1
-U 1 1 5D790785
-P 1400 1500
-F 0 "J1" H 1455 1825 50  0000 C CNN
-F 1 "Jack-DC" H 1455 1734 50  0000 C CNN
-F 2 "" H 1450 1460 50  0001 C CNN
-F 3 "~" H 1450 1460 50  0001 C CNN
-	1    1400 1500
-	1    0    0    -1  
-$EndComp
 Text Notes 1550 2650 0    100  ~ 0
 LSB
 Text Notes 1550 4450 0    100  ~ 0
@@ -1183,10 +1172,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 1600 9400 1600
 Wire Wire Line
-	1700 1400 1700 1250
-Wire Wire Line
-	1700 1600 1700 1750
-Wire Wire Line
 	1700 1750 2000 1750
 Wire Wire Line
 	2000 1750 2000 1850
@@ -1326,11 +1311,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4900 2800 4900
 Wire Wire Line
-	1700 1150 1700 1250
-Connection ~ 1700 1250
-Wire Wire Line
 	1700 1850 1700 1750
-Connection ~ 1700 1750
 Text Notes 8500 3800 0    100  ~ 0
 4 bit input
 Text Notes 8500 4400 0    100  ~ 0
@@ -1381,22 +1362,6 @@ Wire Notes Line
 	8100 5550 8300 5550
 Wire Notes Line
 	8100 3750 8100 5550
-Wire Wire Line
-	8300 1600 8850 1600
-Wire Wire Line
-	8300 1700 8850 1700
-Wire Wire Line
-	8300 1800 8850 1800
-Wire Wire Line
-	8300 1900 8850 1900
-Wire Wire Line
-	8300 2000 8850 2000
-Wire Wire Line
-	8300 2100 8850 2100
-Wire Wire Line
-	8300 2200 8850 2200
-Wire Wire Line
-	1700 1250 2000 1250
 $Comp
 L Device:C C1
 U 1 1 5C7CEA22
@@ -1408,13 +1373,6 @@ F 3 "~" H 2000 1500 50  0001 C CNN
 	1    2000 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 1150 2000 1250
-Wire Wire Line
-	2000 1650 2000 1750
-Connection ~ 2000 1250
-Wire Wire Line
-	2000 1250 2000 1350
 Wire Wire Line
 	2200 3100 2200 2800
 Wire Wire Line
@@ -1494,6 +1452,206 @@ F 1 "VCC" H 10117 2273 50  0000 C CNN
 F 2 "" H 10100 2100 50  0001 C CNN
 F 3 "" H 10100 2100 50  0001 C CNN
 	1    10100 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1750
+Wire Wire Line
+	2000 1650 2000 1750
+Wire Wire Line
+	1700 1600 1700 1750
+Wire Wire Line
+	2000 1250 2000 1350
+Wire Wire Line
+	2000 1150 2000 1250
+Connection ~ 2000 1250
+Wire Wire Line
+	1700 1250 2000 1250
+Wire Wire Line
+	1700 1150 1700 1250
+Connection ~ 1700 1250
+Wire Wire Line
+	1700 1400 1700 1250
+$Comp
+L Connector:Jack-DC J1
+U 1 1 5D790785
+P 1400 1500
+F 0 "J1" H 1455 1825 50  0000 C CNN
+F 1 "Jack-DC" H 1455 1734 50  0000 C CNN
+F 2 "" H 1450 1460 50  0001 C CNN
+F 3 "~" H 1450 1460 50  0001 C CNN
+	1    1400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C8482E2
+P 7900 1300
+F 0 "Q?" H 8000 1300 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 1255 50  0001 L CNN
+F 2 "" H 8100 1400 50  0001 C CNN
+F 3 "~" H 7900 1300 50  0001 C CNN
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1300 7600 1300
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87F914
+P 7900 1600
+F 0 "Q?" H 8000 1600 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 1555 50  0001 L CNN
+F 2 "" H 8100 1700 50  0001 C CNN
+F 3 "~" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87F9AE
+P 7900 1900
+F 0 "Q?" H 8000 1900 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 1855 50  0001 L CNN
+F 2 "" H 8100 2000 50  0001 C CNN
+F 3 "~" H 7900 1900 50  0001 C CNN
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87FA4A
+P 7900 2200
+F 0 "Q?" H 8000 2200 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 2155 50  0001 L CNN
+F 2 "" H 8100 2300 50  0001 C CNN
+F 3 "~" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87FAE4
+P 7900 2500
+F 0 "Q?" H 8000 2500 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 2455 50  0001 L CNN
+F 2 "" H 8100 2600 50  0001 C CNN
+F 3 "~" H 7900 2500 50  0001 C CNN
+	1    7900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87FB80
+P 7900 2800
+F 0 "Q?" H 8000 2800 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 2755 50  0001 L CNN
+F 2 "" H 8100 2900 50  0001 C CNN
+F 3 "~" H 7900 2800 50  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hrnekbezucha:Q_NPN_BCE Q?
+U 1 1 5C87FC6C
+P 7900 3100
+F 0 "Q?" H 8000 3100 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8088 3055 50  0001 L CNN
+F 2 "" H 8100 3200 50  0001 C CNN
+F 3 "~" H 7900 3100 50  0001 C CNN
+	1    7900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1600 7600 1600
+Wire Wire Line
+	7600 3100 7800 3100
+Wire Wire Line
+	7800 2800 7600 2800
+Wire Wire Line
+	7800 2500 7600 2500
+Wire Wire Line
+	7800 2200 7600 2200
+Wire Wire Line
+	7800 1900 7600 1900
+Wire Wire Line
+	8000 1700 8850 1700
+Wire Wire Line
+	8000 1200 8150 1200
+Wire Wire Line
+	8150 1200 8150 1500
+Wire Wire Line
+	8000 3200 8850 3200
+Wire Wire Line
+	8850 3200 8850 2200
+Wire Wire Line
+	8850 2100 8750 2100
+Wire Wire Line
+	8750 2100 8750 2900
+Wire Wire Line
+	8750 2900 8000 2900
+Wire Wire Line
+	8000 2600 8650 2600
+Wire Wire Line
+	8650 2600 8650 2000
+Wire Wire Line
+	8650 2000 8850 2000
+Wire Wire Line
+	8850 1900 8550 1900
+Wire Wire Line
+	8550 1900 8550 2300
+Wire Wire Line
+	8550 2300 8000 2300
+Wire Wire Line
+	8000 2000 8450 2000
+Wire Wire Line
+	8450 2000 8450 1800
+Wire Wire Line
+	8450 1800 8850 1800
+Wire Wire Line
+	8350 1600 8350 1400
+Wire Wire Line
+	8350 1400 8000 1400
+Wire Wire Line
+	8350 1600 8850 1600
+Wire Wire Line
+	8000 1500 8150 1500
+Connection ~ 8150 1500
+Wire Wire Line
+	8150 1500 8150 1800
+Wire Wire Line
+	8000 1800 8150 1800
+Connection ~ 8150 1800
+Wire Wire Line
+	8150 1800 8150 2100
+Wire Wire Line
+	8000 2100 8150 2100
+Connection ~ 8150 2100
+Wire Wire Line
+	8150 2100 8150 2400
+Wire Wire Line
+	8000 2400 8150 2400
+Connection ~ 8150 2400
+Wire Wire Line
+	8150 2400 8150 2700
+Wire Wire Line
+	8000 2700 8150 2700
+Connection ~ 8150 2700
+Wire Wire Line
+	8150 2700 8150 3000
+Wire Wire Line
+	8000 3000 8150 3000
+Connection ~ 8150 3000
+Wire Wire Line
+	8150 3000 8150 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5C97D672
+P 8150 3350
+F 0 "#PWR?" H 8150 3100 50  0001 C CNN
+F 1 "GND" H 8155 3177 50  0000 C CNN
+F 2 "" H 8150 3350 50  0001 C CNN
+F 3 "" H 8150 3350 50  0001 C CNN
+	1    8150 3350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
